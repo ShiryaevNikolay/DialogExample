@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DialogExample</string>
+
+    <string name="button_text">Показать диалог</string>
+    <string name="dialog_message">Привет</string>
+    <string name="dialog_button_text">Закрыть</string>
 </resources>
