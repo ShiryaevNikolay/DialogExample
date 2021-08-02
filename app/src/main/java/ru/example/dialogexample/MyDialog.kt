@@ -12,7 +12,7 @@ class MyDialog : DialogFragment() {
             AlertDialog.Builder(it)
                 .setMessage(R.string.dialog_message)
                 .setPositiveButton(R.string.dialog_button_text) { dialog, id ->
-                    dialog.cancel()
+                    dialog.dismiss()
                 }
                 .create()
         } ?: throw IllegalStateException("Activity cannot be null")
